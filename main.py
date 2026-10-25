@@ -1,7 +1,8 @@
 import requests
 import datetime
+import os
 
-TOKEN = 'a;sldjfqpoweriupt'
+TOKEN = os.environ['PIXELA_TOKEN']
 USER_NAME = 'nozomu'
 GRAPH_ID = 'graph1'
 
